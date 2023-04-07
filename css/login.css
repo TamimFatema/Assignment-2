@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+body {
+  background-size: contain;
+  background-position: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  
+}
+
+.form{
+    width: 300px;
+    height: 330px;
+    color: #fff;
+    background: #4d80e4;
+    opacity: 0.98;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+label {
+  display: flex;
+  margin: 10px 20px;
+  
+}
+
+.form input[type="checkbox"]
+{
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 0px;
+  vertical-align: top;
+  position: relative;
+
+}
+
+.form input[type="checkbox"]:hover
+{
+  cursor: pointer;
+
+}
+
+.form input{
+	width: 80%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.form input[type="submit"]
+{
+    width: 60%;
+    border: none;
+    height: 40px;
+    color: #fff;
+    background: #778DA9;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    background: gray;
+    color: #fff;
+    font-weight: bold;
+}
+  
+  form h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  p a{
+    color: #778DA9;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+  .para-2 a {
+    color: #0F52BA;
+    font-weight: bolder;
+  }
+
+  button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #0F52BA;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+  }
+  button:hover{
+    background: #BBD2EC;
+    color: #000;
+  }

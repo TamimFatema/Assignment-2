@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+.table-dark{
+    color:  whitesmoke;
+    text-align: center;
+
+}
+
+.table{
+    background-color:#BBD2EC;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    border-radius: 15px !important; 
+    align-items: left;  
+  }
+  
+  .btn.btn-primary {
+      border-radius: 30px;
+      background: #4d80e4;
+      color: #fff;
+      -webkit-box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
+      box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2); 
+  }
+  
+  .btn:hover {
+    background-color:#BBD2EC;
+      color: #fff; 
+  }
+  
+  .btn:active, .btn:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; 
+  }
